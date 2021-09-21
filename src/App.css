@@ -1,0 +1,130 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  background-color:#5D6D7E;
+  font-family: 'Nova Cut', cursive;
+  /* border:2px solid blue; */
+}
+.heading_style {
+  text-align:center;
+  font-family:"Raleway",sans-serif;
+  text-transform:uppaercase;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  
+}
+.heading_style h1{
+  background: #34495E;
+  color:white;
+}
+.part{
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+}
+.part1{
+  margin:16px;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  background-color: skyblue;
+  width:30vw;
+  height:80vh;
+  border-radius: 0.5em;
+  box-shadow: 0px 1px 20px 7px rgba(220,220,220,0.69);
+-webkit-box-shadow: 0px 1px 20px 7px rgba(220,220,220,0.69);
+-moz-box-shadow: 0px 1px 20px 7px rgba(220,220,220,0.69);
+}
+.part1_head {
+background-color: skyblue
+}
+label{
+  font-family: 'Nova Cut', cursive;
+  background-color: skyblue;
+}
+button{
+  padding: 12px 20px;
+  background-color:skyblue;
+  color:white;
+  border:2px solid rgb(55, 188, 241);
+  outline:none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color:black;
+  margin: 7px;
+  display: inline;
+}
+.btn{
+  background-color:skyblue; 
+margin-top:4px;
+}
+
+.part2{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: skyblue;
+  border:2px solid rgb(146, 146, 240);
+  width:30vw;
+  height:80vh;
+  margin:16px;
+  border-radius: 0.5em;
+  box-shadow: 0px 1px 20px 7px rgba(220,220,220,0.69);
+-webkit-box-shadow: 0px 1px 20px 7px rgba(220,220,220,0.69);
+-moz-box-shadow: 0px 1px 20px 7px rgba(220,220,220,0.69);
+}
+.part2 .part2heading h2{
+  background-color: skyblue;
+}
+textarea{
+  background-color: skyblue;
+}
+input{
+   background-repeat:repeat-x;
+   background-color:white;
+   height:35px;
+   width:235px;
+   background-clip: border-box;
+}
+
+
+
+span{
+  display:flex;
+  flex-direction: column;
+}
+.r{
+  width: 39px;
+  height:15px;
+}
+.btn{
+  width:100%;
+  text-align: center;
+}
+.part2_head{
+  font-size:16px;
+  margin-top:23px;
+}
+.gender{
+  height:35px;
+  background-color:white;
+}
+.gender input{
+  padding-bottom:10px;
+}
+
+h4{
+  text-align: center;
+  color:#fff;
+  margin-top: 10px;
+  background-color: #34495E;
+  padding-top:3px;
+}
+.foot{
+  /* margin-top: 9px; */
+  background-color:  #34495E;
+   /* margin-bottom: 0%; */
+   height:6vh;
+}
